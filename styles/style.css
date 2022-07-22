@@ -2,6 +2,7 @@
     --primary-color: #1f222a;
     --secondary-color: #292C36;
     --button-color: #666699;
+    --operator-color: #cc6a38;
     --number-color: #FFFF;
     --display-color: #0d0c04;
     --clear-background-color: #d1d1d1;
@@ -76,13 +77,26 @@ button {
     grid-row: 2 / span 4;
 }
 
-.number:active,.decimal:active{
+.number, .decimal {
+    box-shadow: 3px 3px 1px #22252D,
+                -1px -1px 1px#3d495f;
+    color: var(--number-color);
+}
+
+.number:active,.decimal:active {
     background-color: #3d495f;
 }
 
-.operator:focus, .equal:active {
+.operator, .equal {
+    box-shadow: 3px 3px 1px #22252D,
+                -1px -1px 1px#3d495f;
+    background-color: var(--operator-color);
+    color: var(--number-color)
+}
+
+.operator:focus {
     background-color:  var(--number-color);
-    color: #cc6a38;
+    color: var(--operator-color);
 }
 
 .equal:active {
@@ -101,15 +115,3 @@ button {
     background-color: #b5b5b5;
 }
 
-.number, .decimal {
-    box-shadow: 3px 3px 1px #22252D,
-                -1px -1px 1px#3d495f;
-    color: var(--number-color);
-}
-
-.operator, .equal {
-    box-shadow: 3px 3px 1px #22252D,
-                -1px -1px 1px#3d495f;
-    background-color: #cc6a38;
-    color: var(--number-color)
-}
