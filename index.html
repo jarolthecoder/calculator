@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/segment7" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <script src="./script/script.js" defer></script>
+</head>
+<body>
+    <main id="main-container">
+        <div class="calculator">
+
+            <div class="calculator-screen-mask">
+                <div class="calculator-screen">0</div>
+            </div>
+
+            <div class="calculator-buttons">
+                <button class="operator" data-type="operator" data-action ="add">+</button>
+                <button class="operator" data-type="operator" data-action="subtract">-</button>
+                <button class="operator" data-type="operator" data-action="multiply">x</button>
+                <button class="operator" data-type="operator" data-action="divide">/</button>
+
+
+                <button class="number" data-type="number">7</button>
+                <button class="number" data-type="number">8</button>
+                <button class="number" data-type="number">9</button>
+                <button class="number" data-type="number">4</button>
+                <button class="number" data-type="number">5</button>
+                <button class="number" data-type="number">6</button>
+                <button class="number" data-type="number">1</button>
+                <button class="number" data-type="number">2</button>
+                <button class="number" data-type="number">3</button>
+                <button class="number zero" data-type="number">0</button>
+                
+                
+                <button class="decimal" data-type="decimal" data-action="decimal">.</button>
+                <button class="equal" data-type="equal" data-action="calculate">=</button>
+                <button class="clear" data-type="clear" data-action="clear">AC</button>
+               
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
