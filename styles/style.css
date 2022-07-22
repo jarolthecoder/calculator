@@ -4,7 +4,8 @@
     --button-color: #666699;
     --operator-color: #cc6a38;
     --number-color: #FFFF;
-    --display-color: #0d0c04;
+    --display-background-color: #0d0c04;
+    --display-color: #d8d8d8;
     --clear-background-color: #d1d1d1;
 }
 
@@ -42,12 +43,12 @@ body {
     justify-content: flex-end;
     align-items: flex-end;
     height: auto;
-    padding: 1em 1em 0.5em 1em;
+    padding: 1em 0.5em 0.5em 0.5em;
     font-family: 'Segment7Standard', sans-serif;
     font-size: 2.5em;
     border-radius: 10px;
-    background-color: var(--display-color);
-    color: var(--number-color);
+    background-color: var(--display-background-color);
+    color: var(--display-color);
     overflow: hidden;
 }
 
@@ -114,4 +115,5 @@ button {
 .clear:active {
     background-color: #b5b5b5;
 }
+
 
