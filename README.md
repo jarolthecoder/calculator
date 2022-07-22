@@ -1,1 +1,1 @@
-# calculator-assignment
+# Calculator assignment
