@@ -18,7 +18,7 @@ const operate = (n1, operator, n2)=> {
         result = firstNumb / secondNumb;
     }
 
-    return result;
+    return Math.round(result);
 };
 
 // Calculator behavior for each key input
