@@ -18,7 +18,7 @@ const operate = (n1, operator, n2)=> {
         result = firstNumb / secondNumb;
     }
 
-    return result.toFixed(2);
+    return result.toFixed(4);
 };
 
 // Calculator behavior for each key input
