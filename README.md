@@ -5,11 +5,11 @@
 The calculator contains all the basic math operatations you typically 
 find on simple calculators:
 
-<h3>Calculator Functonalities</h3>
+<h4>Calculator Functonalities</h4>
 <ul>
   <li>Add</li>
   <li>Subtract</li>
-  <li>Multiply/li>
+  <li>Multiply</li>
   <li>Divide</li>
   <li>Clear Button</li>
   <li>Strings together several operations</li>
